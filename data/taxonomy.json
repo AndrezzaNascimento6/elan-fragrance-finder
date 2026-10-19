@@ -1,0 +1,7 @@
+{
+  "feeling": {"fresh":"Fresh","warm":"Warm","elegant":"Elegant","bold":"Bold"},
+  "occasion": {"everyday":"Everyday","work":"Work","date-night":"Date night","special-occasions":"Special occasions"},
+  "category": {"citrus":"Citrus","floral":"Floral","woody":"Woody","sweet":"Sweet","spicy":"Spicy"},
+  "intensity": {"light":"Light","balanced":"Balanced","intense":"Intense"},
+  "budget": {"under-50":"Under $50","50-under-100":"$50–under $100","100-plus":"$100+"}
+}

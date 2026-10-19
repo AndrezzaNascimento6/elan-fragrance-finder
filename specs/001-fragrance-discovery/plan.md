@@ -8,11 +8,11 @@
 
 Build a static React/TypeScript/Vite experience: five questions, up to three budget-eligible fictional fragrances, evidence-based explanations, deliberate individual edits, and minimal product details. CSV remains the authored catalog; a Python/Pandas preparation command validates it and emits static JSON. Pure TypeScript functions handle normalization, eligibility, ranking, evidence, and result differences. No backend, database, authentication, checkout, AI API, machine learning, customer data, or inventory integration.
 
-This delivery contains design documents only. It ends after Phase 1; implementation and `tasks.md` are subsequent work.
+Implementation progress is tracked in `tasks.md` and observed checks in `validation/`. The initial discovery slice is implemented locally; hosting and real-device gates remain pending.
 
 ## Technical Context
 
-**Language/Version**: TypeScript 5.x with strict checking; React 19.x; Python 3.12; Node.js 22.12+ in the Node 22 line. Exact compatible dependency patches and lockfiles are selected during implementation, not invented here.
+**Language/Version**: TypeScript 5.x with strict checking; React 19.x; Python 3.13; Node.js 22.11 (Node 22) in the Node 22 line. Exact compatible dependency patches and lockfiles are selected during implementation, not invented here.
 
 **Primary Dependencies**: React, React DOM, Vite and its React plugin; Pandas for preparation only. Vitest, Testing Library, jsdom, Playwright and axe-core for verification; Python unittest for validator cases. Native CSS, browser history, native form controls; Motion for React (`motion`, imported from `motion/react`) for coordinated transitions, with CSS for simple feedback; no UI framework, global state library or router dependency. The former prohibition on animation packages is removed; the rationale and alternatives are recorded in research.md.
 

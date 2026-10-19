@@ -1,0 +1,1 @@
+The controlled source records are constructed by `row()` in `test_prepare_catalog.py` and written as actual quoted UTF-8 CSV into isolated temporary directories. Each subcase changes only its target fields. `public/images/fragrances/test-fixture.svg` is the known existing local asset. Invalid fixtures are never published as the authored catalog.

@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "products": [
+    {
+      "id": "aube",
+      "name": "Aube",
+      "priceCents": 4900,
+      "currency": "USD",
+      "imageSrc": "/images/fragrances/aube.svg",
+      "imageAlt": "Fictional Élan Aube fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "keyNotes": [
+        {
+          "name": "Bergamot",
+          "categories": [
+            "citrus"
+          ]
+        },
+        {
+          "name": "Lemon zest",
+          "categories": [
+            "citrus"
+          ]
+        }
+      ],
+      "intensity": "light",
+      "feelingTags": [
+        "fresh"
+      ],
+      "occasionTags": [
+        "everyday"
+      ],
+      "productPath": "#/products/aube"
+    },
+    {
+      "id": "brume",
+      "name": "Brume",
+      "priceCents": 4500,
+      "currency": "USD",
+      "imageSrc": "/images/fragrances/brume.svg",
+      "imageAlt": "Fictional Élan Brume fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "keyNotes": [
+        {
+          "name": "Cedar",
+          "categories": [
+            "woody"
+          ]
+        },
+        {
+          "name": "Vetiver",
+          "categories": [
+            "woody"
+          ]
+        }
+      ],
+      "intensity": "balanced",
+      "feelingTags": [
+        "fresh"
+      ],
+      "occasionTags": [
+        "work"
+      ],
+      "productPath": "#/products/brume"
+    },
+    {
+      "id": "clair",
+      "name": "Clair",
+      "priceCents": 3500,
+      "currency": "USD",
+      "imageSrc": "/images/fragrances/clair.svg",
+      "imageAlt": "Fictional Élan Clair fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "keyNotes": [
+        {
+          "name": "Mandarin",
+          "categories": [
+            "citrus"
+          ]
+        },
+        {
+          "name": "Bergamot",
+          "categories": [
+            "citrus"
+          ]
+        }
+      ],
+      "intensity": "light",
+      "feelingTags": null,
+      "occasionTags": [
+        "work"
+      ],
+      "productPath": "#/products/clair"
+    },
+    {
+      "id": "fleur",
+      "name": "Fleur de Soie",
+      "priceCents": 4800,
+      "currency": "USD",
+      "imageSrc": "/images/fragrances/fleur.svg",
+      "imageAlt": "Fictional Élan Fleur de Soie fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "keyNotes": [
+        {
+          "name": "Rose",
+          "categories": [
+            "floral"
+          ]
+        },
+        {
+          "name": "Iris",
+          "categories": [
+            "floral"
+          ]
+        }
+      ],
+      "intensity": "light",
+      "feelingTags": [
+        "elegant"
+      ],
+      "occasionTags": [
+        "everyday"
+      ],
+      "productPath": "#/products/fleur"
+    },
+    {
+      "id": "nuit",
+      "name": "Nuit Ambrée",
+      "priceCents": 15000,
+      "currency": "USD",
+      "imageSrc": "/images/fragrances/nuit.svg",
+      "imageAlt": "Fictional Élan Nuit Ambrée fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "keyNotes": [
+        {
+          "name": "Saffron",
+          "categories": [
+            "spicy"
+          ]
+        },
+        {
+          "name": "Pink pepper",
+          "categories": [
+            "spicy"
+          ]
+        }
+      ],
+      "intensity": "intense",
+      "feelingTags": [
+        "bold"
+      ],
+      "occasionTags": [
+        "date-night"
+      ],
+      "productPath": "#/products/nuit"
+    },
+    {
+      "id": "peau",
+      "name": "Peau Dorée",
+      "priceCents": 10000,
+      "currency": "USD",
+      "imageSrc": "/images/fragrances/peau.svg",
+      "imageAlt": "Fictional Élan Peau Dorée fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "keyNotes": [
+        {
+          "name": "Vanilla",
+          "categories": [
+            "sweet"
+          ]
+        },
+        {
+          "name": "Benzoin",
+          "categories": [
+            "sweet"
+          ]
+        }
+      ],
+      "intensity": "balanced",
+      "feelingTags": [
+        "warm"
+      ],
+      "occasionTags": [
+        "special-occasions"
+      ],
+      "productPath": "#/products/peau"
+    },
+    {
+      "id": "rosee",
+      "name": "Rosée",
+      "priceCents": 12500,
+      "currency": "USD",
+      "imageSrc": "/images/fragrances/rosee.svg",
+      "imageAlt": "Fictional Élan Rosée fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "keyNotes": [
+        {
+          "name": "Rose",
+          "categories": [
+            "floral"
+          ]
+        },
+        {
+          "name": "Jasmine",
+          "categories": [
+            "floral"
+          ]
+        }
+      ],
+      "intensity": "light",
+      "feelingTags": [
+        "elegant"
+      ],
+      "occasionTags": [
+        "special-occasions"
+      ],
+      "productPath": "#/products/rosee"
+    },
+    {
+      "id": "sillage",
+      "name": "Sillage",
+      "priceCents": 9999,
+      "currency": "USD",
+      "imageSrc": "/images/fragrances/sillage.svg",
+      "imageAlt": "Fictional Élan Sillage fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "keyNotes": [
+        {
+          "name": "Sandalwood",
+          "categories": [
+            "woody"
+          ]
+        },
+        {
+          "name": "Cedar",
+          "categories": [
+            "woody"
+          ]
+        }
+      ],
+      "intensity": "balanced",
+      "feelingTags": [
+        "elegant"
+      ],
+      "occasionTags": [
+        "work"
+      ],
+      "productPath": "#/products/sillage"
+    },
+    {
+      "id": "terre",
+      "name": "Terre Noire",
+      "priceCents": 9500,
+      "currency": "USD",
+      "imageSrc": "/images/fragrances/terre.svg",
+      "imageAlt": "Fictional Élan Terre Noire fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "keyNotes": [
+        {
+          "name": "Black pepper",
+          "categories": [
+            "spicy"
+          ]
+        },
+        {
+          "name": "Cardamom",
+          "categories": [
+            "spicy"
+          ]
+        }
+      ],
+      "intensity": "intense",
+      "feelingTags": [
+        "bold"
+      ],
+      "occasionTags": [
+        "special-occasions"
+      ],
+      "productPath": "#/products/terre"
+    },
+    {
+      "id": "velours",
+      "name": "Velours",
+      "priceCents": 7900,
+      "currency": "USD",
+      "imageSrc": "/images/fragrances/velours.svg",
+      "imageAlt": "Fictional Élan Velours fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "keyNotes": [
+        {
+          "name": "Vanilla",
+          "categories": [
+            "sweet"
+          ]
+        },
+        {
+          "name": "Tonka bean",
+          "categories": [
+            "sweet"
+          ]
+        }
+      ],
+      "intensity": "balanced",
+      "feelingTags": [
+        "warm"
+      ],
+      "occasionTags": [
+        "date-night"
+      ],
+      "productPath": "#/products/velours"
+    }
+  ],
+  "diagnostics": {
+    "sourceRows": 10,
+    "excludedRows": 0,
+    "identicalDuplicateRows": 0,
+    "unknownAttributeProducts": 1,
+    "issues": []
+  }
+}

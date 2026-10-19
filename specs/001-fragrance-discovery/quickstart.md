@@ -1,13 +1,13 @@
 # Quickstart and Validation Guide
 
-This is a planned run contract. The repository currently contains specifications only; commands below become runnable during implementation. No implementation, installation, tests or user study were performed by this planning phase.
+The local discovery slice and commands below are implemented. Retained observations are in `validation/`; deployment, real-device verification and later story gates remain separate. No user study has been run.
 
 ## Prerequisites and setup
 
-Use Node 22.12+ (Node 22 line), npm, Python 3.12 and an isolated virtual environment. Implementation must supply package scripts and pinned/locked compatible dependencies. Run from repository root:
+Use the existing Node 22.11 (Node 22 line), npm, Python 3.13 and an isolated virtual environment. Implementation must supply package scripts and pinned/locked compatible dependencies. Run from repository root:
 
 ```sh
-python3.12 -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements-data.txt
 npm ci

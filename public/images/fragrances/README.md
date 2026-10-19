@@ -1,0 +1,1 @@
+Original vector illustrations authored for this fictional catalog. Bottle names and label text correspond to the CSV. The leaf silhouette and illuminated ground are decorative atmosphere, not additional ingredient claims. SVG viewBox assets scale to mobile and desktop without extra responsive raster downloads.

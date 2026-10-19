@@ -1,0 +1,36 @@
+name: Validate
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.11.0'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: requirements-data.txt
+      - run: python -m pip install -r requirements-data.txt
+      - run: npm ci
+      - run: python -m unittest discover -s tests/data
+      - run: python scripts/prepare_catalog.py --input data/fragrances.csv --taxonomy data/taxonomy.json --output src/data/catalog.json --check
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: browser-validation
+          path: |
+            test-results/
+            specs/001-fragrance-discovery/validation/*.png

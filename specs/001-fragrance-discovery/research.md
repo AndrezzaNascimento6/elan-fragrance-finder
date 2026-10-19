@@ -32,7 +32,7 @@ Sources: [Pandas read_csv](https://pandas.pydata.org/pandas-docs/stable/referenc
 
 ## Testing approach
 
-**Decision:** Vitest for pure logic, Testing Library for interactions, Playwright/axe for focused browser checks, unittest for preparation. Select compatible current versions at implementation with Node 22.12+ and lock them; run tests once in validation rather than relying on watch mode.
+**Decision:** Vitest for pure logic, Testing Library for interactions, Playwright/axe for focused browser checks, unittest for preparation. Select compatible current versions at implementation with Node 22.11 (Node 22) and lock them; run tests once in validation rather than relying on watch mode.
 
 **Rationale:** Ranking runs without rendering; Python fixtures isolate data defects; browser tests prove the complete journey and race handling. Manual accessibility review is still required.
 
@@ -87,3 +87,7 @@ Source: [Vercel Vite deployment and Git previews](https://vercel.com/docs/framew
 ## Hypothesis and remaining empirical work
 
 The product hypothesis remains unvalidated: familiar questions and a small explained result set may aid confident exploration. Implement only the journey needed to test SC-001–004/008. Record participant count, denominators, timing distributions, confusion, disagreements with tags, assistance and confidence changes; collect no real customer dataset or production analytics. Revise wording, tags or interaction choices when contrary evidence appears. No unresolved technical clarification blocks design; usability and measured performance remain future validation work.
+
+## Implementation environment alignment — 2026-10-19
+
+At the user's direction, retain existing Node 22.11.0 and Python 3.13.1 rather than installing other runtimes to match the older planning references. Vite 6.4.4/TypeScript 5.9.3 build successfully on this Node. Pandas 2.3.3 has an installed CPython 3.13 wheel, and the preparation tests pass in the local Python 3.13 virtual environment. No dependency incompatibility with Python 3.13 was observed. `node` is not a project dependency. The lockfile records the selected JavaScript versions; `requirements-data.txt` pins the preparation dependency. This changes environment references, not product or recommendation behavior.
