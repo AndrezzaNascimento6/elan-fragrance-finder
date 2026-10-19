@@ -28,7 +28,7 @@ This delivery contains design documents only. It ends after Phase 1; implementat
 
 **Constraints**: Integer USD cents, explicit evidence only, immutable inputs, deterministic ties, zero unsupported claims and out-of-band recommendations. Loading or failed updates never present obsolete results as current. Local assets and no third-party runtime requests required.
 
-**Scale/Scope**: Plan a 24-product curated catalog, chosen to cover all answer vocabulary and budget bands, with controlled fixture variants for edge cases. Five questions, intro, processing, results, empty, error, inline editor, and product detail. No claim that 24 records cover every combination; fixture coverage is explicit.
+**Scale/Scope**: Use a small curated fictional catalog sized by scenario coverage: exact matches, partial matches, ties, all preference vocabulary and budget bands, missing-data behavior and empty states, with controlled fixture variants where needed. No fixed product count is required. Five questions, intro, processing, results, empty, error, inline editor, and product detail. Document catalog and fixture coverage explicitly.
 
 ## Constitution Check
 
@@ -43,7 +43,7 @@ This delivery contains design documents only. It ends after Phase 1; implementat
 | V: Data integrity | Validated CSV pipeline, shared vocabulary, identity conflict exclusion, unknown tags, defensive runtime loading and disclosure. |
 | VI: Maintainability | One app, pure domain functions, small preparation utility; no speculative service layers. |
 | VII: Testability | Rule, validator, explanation, interaction, failure and accessibility evidence mapped in quickstart. |
-| VIII: Responsiveness | Measurable 100 ms/1 s targets, 24-product baseline, desktop/mobile conditions and recorded distributions. |
+| VIII: Responsiveness | Measurable 100 ms/1 s targets, coverage-driven catalog, actual desktop/mobile conditions and recorded observations. |
 | IX: Decisions | Research records alternatives, scope boundaries and unvalidated product hypothesis. |
 
 No constitutional exceptions or amendments are required. Do not claim exploratory usability success or performance compliance before collecting evidence.
@@ -135,7 +135,7 @@ Favor opacity/transform and small bounded layers. Bake expensive light/texture i
 
 1. Implement the existing offline data boundary, deterministic TypeScript recommendations and accessible mobile-first vertical slice: Introduction → five questions → real processing state → explained recommendations. Include reduced-motion behavior from the start.
 2. Once this slice works end-to-end and its core checks pass, deploy its static Vite output to Vercel from the GitHub source repository. Do not wait for final visual polish or deploy during planning. Use the generated catalog JSON checked into Git; Python/Pandas validation/transformation runs offline/in development or CI, not in the deployed app. Vercel uses npm build tooling and serves `dist`; no backend, database, functions or runtime Python are needed. Preserve hash detail navigation.
-3. Use the deployed URL on a real phone for responsive/mobile-browser checks, motion profiling and accessibility review while completing preference editing, recovery and details. Iterate imagery, typography and choreography against observed behavior; record the final short LinkedIn mobile demo after validation/refinement. GitHub remains the source repository.
+3. Use the deployed URL on a real phone for responsive/mobile-browser checks, motion profiling and accessibility review while completing preference editing, recovery and details. Iterate imagery, typography and choreography against observed behavior; screen-record the final deployed experience on a real phone for the short LinkedIn mobile demo after validation/refinement. Keep the MP4 outside the Git repository; it may later be edited externally in iMovie. Store only lightweight tested-build/device documentation for the recording in validation files. GitHub remains the source repository.
 
 ## Complexity Tracking
 
