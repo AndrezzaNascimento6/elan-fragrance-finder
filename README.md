@@ -1,28 +1,53 @@
-# Élan Fragrance Finder
+# ÉLAN Fragrance Finder
 
-A static fictional fragrance discovery experience. React 19, TypeScript 5, Vite 6 and Motion for React. No backend or runtime Python.
+An experimental fragrance discovery experience built to explore Spec-Driven Development (SDD) with AI-assisted development.
 
-Use the existing Node 22.11 (Node 22 line), npm and Python 3.13. Python is used only for offline catalog validation. No Node binary is a project dependency.
+## About the project
 
-```sh
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements-data.txt
-npm ci
-python scripts/prepare_catalog.py --input data/fragrances.csv --taxonomy data/taxonomy.json --output src/data/catalog.json
-npm run dev
-```
+This project was inspired by the Grupo Boticário case presented at PrograMaria Summit 2026 about Spec-Driven Development.
 
-Validation:
+The idea behind SDD is to define the product context before implementation — including requirements, rules, expected behaviors, technical planning and tasks — so AI works from a structured specification instead of isolated prompts.
 
-```sh
-python -m unittest discover -s tests/data
-python scripts/prepare_catalog.py --input data/fragrances.csv --taxonomy data/taxonomy.json --output src/data/catalog.json --check
-npm run typecheck
-npm test
-npm run build
-npx playwright install chromium
-npm run test:e2e
-```
+I wanted to test this approach in practice, so I created ÉLAN Fragrance Finder: a fictional luxury fragrance discovery experience that recommends fragrances based on user preferences.
 
-Vercel uses `npm run build` and serves `dist`; it consumes the checked-in generated catalog. CI, rather than the hosting build, verifies data freshness. See `specs/001-fragrance-discovery/` for contracts and retained validation evidence.
+For me, the main benefit of working with SDD was having more clarity and control throughout the development process, with fewer back-and-forth interactions with AI and a more predictable path from idea to implementation and validation.
+
+## Experience
+
+Users answer a short sequence of questions about:
+
+- desired feeling
+- occasion
+- fragrance notes
+- intensity
+- budget
+
+The experience then generates up to three deterministic recommendations based on those preferences.
+
+The interface was designed with a strong focus on visual storytelling, motion, responsive behavior and accessibility.
+
+## Tech stack
+
+- React
+- TypeScript
+- Vite
+- Motion for React
+- Python + Pandas for catalog preparation and validation
+- Playwright for automated browser and mobile-flow testing
+- Vitest
+- Codex for AI-assisted implementation
+- Vercel for deployment
+
+## Live project
+
+https://elan-fragrance-finder.vercel.app
+
+## Repository
+
+https://github.com/AndrezzaNascimento6/elan-fragrance-finder
+
+## Context
+
+This is a fictional product created as an experimentation project to explore AI-assisted product development and Spec-Driven Development.
+
+The fragrance brand, products and recommendation catalog are fictional.
