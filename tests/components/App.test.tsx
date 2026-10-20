@@ -23,3 +23,17 @@ it('ignores obsolete result completions and clears previous products on a new re
  const pending=visitReducer(state,{type:'request',id:2,preferences});expect(pending.result).toBeNull();
  expect(visitReducer(pending,{type:'resolve',id:1,result:{status:'empty',recommendations:[],diagnostics:catalogDocument([]).diagnostics}})).toBe(pending);
 });
+
+it('Home invalidates pending work and keyboard activation restores the introduction',async()=>{
+ let complete!:(c:ReturnType<typeof normalizeCatalog>)=>void;
+ vi.mocked(loadCatalog).mockImplementation(()=>new Promise(resolve=>{complete=resolve;}));
+ const user=userEvent.setup();render(<App/>);await user.click(screen.getByRole('button',{name:'Start discovering'}));
+ for(const [i,answer] of ['Fresh','Everyday','Citrus','Light','Under $50'].entries()){
+  await user.click(screen.getByRole('radio',{name:answer}));await user.click(screen.getByRole('button',{name:i===4?'Find my fragrances':'Continue'}));
+ }
+ expect(screen.getByRole('status')).toHaveTextContent('Finding fragrances');
+ screen.getByRole('link',{name:'Élan — Home'}).focus();await user.keyboard('{Enter}');
+ expect(screen.getByRole('heading',{name:'Find the fragrance that feels like you'})).toHaveFocus();
+ await act(async()=>{complete(normalizeCatalog(catalogDocument([product()])));});
+ expect(screen.getByRole('heading',{name:'Find the fragrance that feels like you'})).toBeInTheDocument();expect(screen.queryByRole('article')).not.toBeInTheDocument();
+});

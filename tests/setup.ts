@@ -14,3 +14,15 @@ class TestIntersectionObserver {
  takeRecords(): IntersectionObserverEntry[] {return [];}
 }
 Object.defineProperty(window,'IntersectionObserver',{writable:true,value:TestIntersectionObserver});
+
+Object.defineProperty(window,'scrollTo',{writable:true,value:vi.fn()});
+// Motion synthesizes pointer feedback for Enter/Space; jsdom lacks PointerEvent.
+class TestPointerEvent extends MouseEvent {
+ readonly pointerId:number;
+ readonly pointerType:string;
+ readonly isPrimary:boolean;
+ constructor(type:string,init:PointerEventInit={}){
+  super(type,init);this.pointerId=init.pointerId??1;this.pointerType=init.pointerType??'mouse';this.isPrimary=init.isPrimary??true;
+ }
+}
+Object.defineProperty(window,'PointerEvent',{writable:true,value:TestPointerEvent});

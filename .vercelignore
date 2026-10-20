@@ -1,0 +1,16 @@
+.git/
+.agents/
+.specify/
+.vercel/
+.env*
+.venv/
+.npm-cache/
+node_modules/
+dist/
+build/
+coverage/
+playwright-report/
+test-results/
+__pycache__/
+*.pyc
+*.log

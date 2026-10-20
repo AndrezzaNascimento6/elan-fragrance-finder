@@ -1,1 +1,11 @@
-:root { color-scheme: dark; --ink:#141310; --paper:#f6f1e8; --muted:#c4bcae; --gold:#d8c3a0; --line:#777065; --display:'Elan Serif', Georgia, serif; --body:'Elan Sans', Arial, sans-serif; }
+:root {
+ color-scheme:dark;
+ --ink:#0b0a08;
+ --paper:#f5f0e5;
+ --muted:#c8beae;
+ --gold:#dbc398;
+ --line:#82715a;
+ --display:'Elan Serif',Georgia,serif;
+ --body:'Elan Sans',Arial,sans-serif;
+ --script:'Elan Script',cursive;
+}

@@ -6,8 +6,8 @@
       "name": "Aube",
       "priceCents": 4900,
       "currency": "USD",
-      "imageSrc": "/images/fragrances/aube.svg",
-      "imageAlt": "Fictional Élan Aube fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "imageSrc": "/images/fragrances/aube.webp",
+      "imageAlt": "Photographic-style image of fictional Élan Aube: a thick glass perfume bottle with a black cap and an ivory Élan label, photographed in warm studio light against a dark background.",
       "keyNotes": [
         {
           "name": "Bergamot",
@@ -36,8 +36,8 @@
       "name": "Brume",
       "priceCents": 4500,
       "currency": "USD",
-      "imageSrc": "/images/fragrances/brume.svg",
-      "imageAlt": "Fictional Élan Brume fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "imageSrc": "/images/fragrances/brume.webp",
+      "imageAlt": "Photographic-style image of fictional Élan Brume: a thick glass perfume bottle with a black cap and an ivory Élan label, photographed in warm studio light against a dark background.",
       "keyNotes": [
         {
           "name": "Cedar",
@@ -66,8 +66,8 @@
       "name": "Clair",
       "priceCents": 3500,
       "currency": "USD",
-      "imageSrc": "/images/fragrances/clair.svg",
-      "imageAlt": "Fictional Élan Clair fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "imageSrc": "/images/fragrances/clair.webp",
+      "imageAlt": "Photographic-style image of fictional Élan Clair: a thick glass perfume bottle with a black cap and an ivory Élan label, photographed in warm studio light against a dark background.",
       "keyNotes": [
         {
           "name": "Mandarin",
@@ -94,8 +94,8 @@
       "name": "Fleur de Soie",
       "priceCents": 4800,
       "currency": "USD",
-      "imageSrc": "/images/fragrances/fleur.svg",
-      "imageAlt": "Fictional Élan Fleur de Soie fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "imageSrc": "/images/fragrances/fleur.webp",
+      "imageAlt": "Photographic-style image of fictional Élan Fleur de Soie: a thick glass perfume bottle with a black cap and an ivory Élan label, photographed in warm studio light against a dark background.",
       "keyNotes": [
         {
           "name": "Rose",
@@ -124,8 +124,8 @@
       "name": "Nuit Ambrée",
       "priceCents": 15000,
       "currency": "USD",
-      "imageSrc": "/images/fragrances/nuit.svg",
-      "imageAlt": "Fictional Élan Nuit Ambrée fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "imageSrc": "/images/fragrances/nuit.webp",
+      "imageAlt": "Photographic-style image of fictional Élan Nuit Ambrée: a thick glass perfume bottle with a black cap and an ivory Élan label, photographed in warm studio light against a dark background.",
       "keyNotes": [
         {
           "name": "Saffron",
@@ -154,8 +154,8 @@
       "name": "Peau Dorée",
       "priceCents": 10000,
       "currency": "USD",
-      "imageSrc": "/images/fragrances/peau.svg",
-      "imageAlt": "Fictional Élan Peau Dorée fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "imageSrc": "/images/fragrances/peau.webp",
+      "imageAlt": "Photographic-style image of fictional Élan Peau Dorée: a thick glass perfume bottle with a black cap and an ivory Élan label, photographed in warm studio light against a dark background.",
       "keyNotes": [
         {
           "name": "Vanilla",
@@ -184,8 +184,8 @@
       "name": "Rosée",
       "priceCents": 12500,
       "currency": "USD",
-      "imageSrc": "/images/fragrances/rosee.svg",
-      "imageAlt": "Fictional Élan Rosée fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "imageSrc": "/images/fragrances/rosee.webp",
+      "imageAlt": "Photographic-style image of fictional Élan Rosée: a thick glass perfume bottle with a black cap and an ivory Élan label, photographed in warm studio light against a dark background.",
       "keyNotes": [
         {
           "name": "Rose",
@@ -214,8 +214,8 @@
       "name": "Sillage",
       "priceCents": 9999,
       "currency": "USD",
-      "imageSrc": "/images/fragrances/sillage.svg",
-      "imageAlt": "Fictional Élan Sillage fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "imageSrc": "/images/fragrances/sillage.webp",
+      "imageAlt": "Photographic-style image of fictional Élan Sillage: a thick glass perfume bottle with a black cap and an ivory Élan label, photographed in warm studio light against a dark background.",
       "keyNotes": [
         {
           "name": "Sandalwood",
@@ -244,8 +244,8 @@
       "name": "Terre Noire",
       "priceCents": 9500,
       "currency": "USD",
-      "imageSrc": "/images/fragrances/terre.svg",
-      "imageAlt": "Fictional Élan Terre Noire fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "imageSrc": "/images/fragrances/terre.webp",
+      "imageAlt": "Photographic-style image of fictional Élan Terre Noire: a thick glass perfume bottle with a black cap and an ivory Élan label, photographed in warm studio light against a dark background.",
       "keyNotes": [
         {
           "name": "Black pepper",
@@ -274,8 +274,8 @@
       "name": "Velours",
       "priceCents": 7900,
       "currency": "USD",
-      "imageSrc": "/images/fragrances/velours.svg",
-      "imageAlt": "Fictional Élan Velours fragrance: a rectangular glass bottle with a black cap and ivory label on a dark illuminated ground.",
+      "imageSrc": "/images/fragrances/velours.webp",
+      "imageAlt": "Photographic-style image of fictional Élan Velours: a thick glass perfume bottle with a black cap and an ivory Élan label, photographed in warm studio light against a dark background.",
       "keyNotes": [
         {
           "name": "Vanilla",

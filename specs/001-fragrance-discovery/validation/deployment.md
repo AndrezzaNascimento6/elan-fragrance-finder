@@ -1,17 +1,49 @@
-# Deployment milestone — preparation
+# First production deployment — 2026-10-19
 
-Repository: `https://github.com/AndrezzaNascimento6/elan-fragrance-finder` (verified git origin). Read-only GitHub deployments query returned `[]` on 2026-10-19. No Vercel CLI or linked `.vercel` project is present. A Vercel integration is available but was not installed/connected at discovery; connection was suggested. The discovery slice was committed locally as `e0e2ebb` for the first deployment. Vercel publication remains pending authentication; deployment status will be recorded only after verification.
+## Verified deployment
 
-T029 configuration: `.github/workflows/validate.yml` runs Python 3.13/Pandas tests and generated-data freshness, Node 22.11 TypeScript/Vitest/build and Playwright/axe against production preview. Workflow definition is present; no remote CI run has yet been observed. Browser results are retained as CI artifacts. Commands have been exercised locally; this does not imply that GitHub CI has passed.
+- Public URL: https://elan-fragrance-finder.vercel.app
+- Immutable deployment URL: https://elan-fragrance-finder-fi955g3yt-andrezza2.vercel.app
+- Status: READY; target: production. Public root returned HTTP 200 without authentication or redirects to a login page.
+- Deployment ID: `dpl_5sBbewSpLKntHd5KoZUF3zXM994T`.
+- Project: `elan-fragrance-finder`, owned by Andrezza (`andrezza2`, Hobby).
+- Project ID: `prj_dJoZNXXTvsQxyqds2Gpc74lEFTIt`.
+- GitHub connection verified: `AndrezzaNascimento6/elan-fragrance-finder`.
+- Inspector: https://vercel.com/andrezza2/elan-fragrance-finder/5sBbewSpLKntHd5KoZUF3zXM994T
 
-Prepared `vercel.json`: Vite framework, `npm ci`, `npm run build`, output `dist`. The build runs TypeScript and Vite only and consumes checked-in `src/data/catalog.json`; Python/Pandas are offline development/CI dependencies. Browser dependencies and local fonts/images are static assets. Hash routes do not require host rewrites. Select the Node 22 hosting line; hosting patch version may differ from the tested local 22.11.0.
+Source implementation revision on GitHub main: `53b8573b247b5bcb8ea1cac9553d05eb5767a269`. Its Validate CI run completed successfully: https://github.com/AndrezzaNascimento6/elan-fragrance-finder/actions/runs/39320449377 . Deployment used the authenticated Vercel CLI (`npx --yes vercel deploy --prod --yes --scope andrezza2`) from the same application source, with local deployment ignore/link metadata added. No later product code was implemented.
 
-T030 remains pending: connect/import the GitHub repository into the intended Vercel account/project and deploy the checked slice. Record the actual deployed Git SHA, HTTPS URL, build settings and asset/navigation checks here. Do not invent a deployment URL or claim the local uncommitted working tree is on GitHub.
+## Configuration decisions and checks
 
-T031 requires actual mobile Safari observations after hosting. Later details, recovery/refinement and final release tasks follow the explicit deployment/device milestones in tasks.md. They have not been marked complete or silently moved ahead of that dependency gate.
+Repository root `.`, framework Vite, hosted Node `22.x`, install `npm ci`, build `npm run build`, output `dist`. Vercel initially defaulted the project to Node 24; the setting was explicitly changed to Node 22 and verified through the project API. The GitHub repository was connected automatically during project linking.
 
-## First deployment scope and iPhone handoff
+The production build runs TypeScript and Vite only, consuming generated `src/data/catalog.json`. No backend, serverless function or runtime Python was added. Pandas/preparation remain offline development and CI dependencies. Hash destinations need no host rewrites.
 
-User confirmed there is no existing Vercel project and authorized a new project connected to `AndrezzaNascimento6/elan-fragrance-finder`. Use repository root, Vite, `npm run build`, `dist`, Node 22 hosting, no backend/functions/runtime Python. User will validate on a real iPhone after publication. Do not continue product details, preference editing, recovery or later implementation tasks during this deployment request.
+`.vercelignore` excludes local environment files, credentials, dependencies, caches and build/test output. Vercel CLI generated an ignored `.env.local` during linking; it was excluded from the deployment upload. `.vercel` is ignored by Git. No secrets were committed.
 
-On iPhone Safari: record device/iOS version; complete Start → Fresh → Everyday → Citrus → Light → Under $50; confirm Aube leads with 4/4 matches, prices stay under $50, and all alternatives show four evidence dimensions. Check unanswered-question validation and Back preservation, image/font loading, portrait/landscape scrolling, safe areas and browser chrome, reachable touch controls, VoiceOver labels/status where available, and Reduce Motion. Product detail links and editing/recovery are outside this first-deployment scope and are not yet implemented.
+Verified the public JavaScript, CSS, catalog JSON, Aube image and both local fonts returned HTTP 200 and matched SHA-256 bytes of the validated local production build. The public HTML references the same built JS/CSS. Vercel inspect confirms Ready and the production alias. These are deployment/asset checks, not actual iPhone, Safari or VoiceOver observations.
+
+## iPhone handoff — pending user validation
+
+Open https://elan-fragrance-finder.vercel.app in Safari and record device model/iOS version.
+
+1. Complete Start → Fresh → Everyday → Citrus → Light → Under $50. Aube should lead with 4/4 matches. All prices must be under $50 and every alternative must show all four evidence dimensions.
+2. Try Continue without an answer; verify the error. Use Back and confirm preserved selections.
+3. Check font/image loading, natural scrolling, portrait/landscape layouts, safe areas and Safari browser chrome changes, and reachable touch controls.
+4. Try Reduce Motion and VoiceOver labels/focus/status where available.
+
+Product details, preference editing, recovery refinements and all later implementation tasks remain outside this deployment request. Product-detail links are not implemented yet. T030 is complete; T031 and subsequent tasks remain unchecked pending the user's real-iPhone observations and further instruction.
+
+## Approved visual redesign production update
+
+The user approved the completed visual redesign and authorized deploying it to the existing `elan-fragrance-finder` project, while keeping all remaining roadmap tasks paused. Published with `npx --yes vercel deploy --prod --yes --scope andrezza2`.
+
+- Production URL: https://elan-fragrance-finder.vercel.app
+- Deployment: `dpl_7CpMYA9xBPb4vvTHwPY9pypcfyHV`
+- Immutable URL: https://elan-fragrance-finder-ctmt6i6xq-andrezza2.vercel.app
+- Vercel API status and readyState: READY; errorCode/errorMessage: null.
+- Public root HTTP 200; production alias assigned successfully.
+- Approved build verified by exact SHA-256 matches for 36 public assets, including JS/CSS, catalog, all photographic WebPs and local fonts. Ten catalog products use the approved photographic replacements.
+- Vite, `npm ci`, `npm run build`, `dist`, no backend/functions/runtime Python retained.
+
+This deployment uploaded the approved current working tree through the existing linked CLI project. The redesign remains uncommitted/unpushed on the local checkout; the GitHub source revision was not advanced during this request. No additional roadmap implementation was performed. Await real-iPhone motion validation from the user.

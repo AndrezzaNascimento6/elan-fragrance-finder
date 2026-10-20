@@ -1,0 +1,96 @@
+{
+  "mode": "built-in image_gen",
+  "reference": "User-provided Élan luxury campaign reference, 2026-10-19",
+  "assets": [
+    {
+      "name": "hero",
+      "path": "/images/campaign/hero.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-5197ae8f-c3e0-4dbe-8e81-b7cfb72c9ce4.png",
+      "prompt": "Use case: ads-marketing. Asset type: photographic website hero background, landscape 3:2. Create an extremely realistic luxury fragrance campaign photograph for a fictional ÉLAN fragrance house. A massive close-up dark amber rectangular perfume bottle dominates the RIGHT two-thirds, viewed slightly from below, glossy black cylindrical sculpted cap with narrow champagne-metal rim, thick faceted clear glass, warm amber liquid, believable reflections and optical caustics. Bottle is cropped along the bottom/right like an intimate macro fashion campaign. A few out-of-focus cream magnolia petals and softly folded ivory silk behind it at upper right, no visible ingredients presented as product claims. The LEFT 45% is mostly near-black negative space for live webpage type, no text baked into that area. Background warm black #0b0a08, dramatic warm tungsten side light, champagne highlights, velvety deep shadows, subtle film grain, shallow depth of field, expensive editorial still-life shot on medium-format camera. Match the refined restrained black-and-champagne visual language of the supplied reference. Actual photographic realism, NO illustration, NO vector, NO flat or cartoon rendering, NO website mockup, NO layout, NO UI, NO text, NO watermark. Image only."
+    },
+    {
+      "name": "feeling-fresh",
+      "path": "/images/campaign/feeling-fresh.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-76315813-4c6e-4189-9fff-5bbfda40c6f5.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: luxury fragrance emotional-mood option card background, landscape 3:2. An extreme close-up macro photograph of a creamy white magnolia petal with clear dew droplets, graceful organic folds, faint green shadow. Composition petal centered left, deep black bottom edge for overlaid text. Cool ivory highlights in dark warm-black surrounding. No whole flower bouquet. Photographed for an exceptionally refined black and champagne French perfume campaign. Natural studio photographic realism, cinematic chiaroscuro, shallow depth of field, subtle natural grain. Match the supplied reference's photographic mood cards. These are atmospheric mood illustrations, not claims about product ingredients. NO bottles, NO lettering, NO typography, NO UI, NO collage, NO illustration, NO plastic 3D rendering, NO watermark."
+    },
+    {
+      "name": "feeling-warm",
+      "path": "/images/campaign/feeling-warm.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-e737dbe7-2030-49c8-95e8-dc57ecac6e79.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: luxury fragrance emotional-mood option card background, landscape 3:2. An extreme close-up macro photograph of champagne caramel silk folded like a warm wave, soft golden amber side light revealing luxurious woven texture, deep near-black shadows in creases. Fabric fills the frame, no objects. Photographed for an exceptionally refined black and champagne French perfume campaign. Natural studio photographic realism, cinematic chiaroscuro, shallow depth of field, subtle natural grain. Match the supplied reference's photographic mood cards. These are atmospheric mood illustrations, not claims about product ingredients. NO bottles, NO lettering, NO typography, NO UI, NO collage, NO illustration, NO plastic 3D rendering, NO watermark."
+    },
+    {
+      "name": "feeling-elegant",
+      "path": "/images/campaign/feeling-elegant.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-59c1c2d5-5bc7-4013-8bb3-507c4b2642fc.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: luxury fragrance emotional-mood option card background, landscape 3:2. An extreme close-up macro photograph of ivory silk organza billowing in an elegant soft arc, feathery delicate fine texture, champagne reflections and taupe midtones falling to near-black at bottom, tactile and refined. Photographed for an exceptionally refined black and champagne French perfume campaign. Natural studio photographic realism, cinematic chiaroscuro, shallow depth of field, subtle natural grain. Match the supplied reference's photographic mood cards. These are atmospheric mood illustrations, not claims about product ingredients. NO bottles, NO lettering, NO typography, NO UI, NO collage, NO illustration, NO plastic 3D rendering, NO watermark."
+    },
+    {
+      "name": "feeling-bold",
+      "path": "/images/campaign/feeling-bold.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-573491a3-03ef-4be6-aefa-766ab1fef24a.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: luxury fragrance emotional-mood option card background, landscape 3:2. An extreme close-up macro photograph of rich burgundy dahlia petals, dark wine red folded petals sweeping diagonally from upper right, sensuous organic texture, a fine warm rimlight, deep near-black background and lower-left negative space. Photographed for an exceptionally refined black and champagne French perfume campaign. Natural studio photographic realism, cinematic chiaroscuro, shallow depth of field, subtle natural grain. Match the supplied reference's photographic mood cards. These are atmospheric mood illustrations, not claims about product ingredients. NO bottles, NO lettering, NO typography, NO UI, NO collage, NO illustration, NO plastic 3D rendering, NO watermark."
+    },
+    {
+      "name": "aube",
+      "path": "/images/fragrances/aube.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-a3fe7b07-6559-4752-bb16-c0ae6f2a45c1.png",
+      "prompt": "Use case: product-mockup. Asset type: portrait 2:3 luxury fragrance product photograph for a real website. Fictional ÉLAN perfume called Aube. clear pale champagne liquid, thick rectangular transparent glass, glossy sculpted black cap with a fine champagne collar; dark stone with a subtle out-of-focus ivory silk fold. One complete bottle, upright centered, occupies 65 percent of image height, generous dark space above and on both sides, bottle fully inside frame, clean silhouette and real thick glass with realistic internal reflections, refraction, liquid meniscus, tiny natural surface imperfections. Small elegant ivory label printed with exact text 'ÉLAN' and 'Aube' only, correct legible spelling, no other claims, no volumes, no extra words. Extremely convincing high-end medium-format studio photography, 85mm lens, focused label, warm champagne strip light along the glass edges, dramatic deep warm-black #0b0a08 shadows, soft gold caustics on the dark table, tactile subdued silk where specified, premium fragrance campaign. Natural photograph, NOT drawing, NOT vector, NOT illustration, NOT cartoon, NOT CGI looking, no collage, no other brands, no UI or watermark."
+    },
+    {
+      "name": "brume",
+      "path": "/images/fragrances/brume.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-13e2120d-ee9d-4d46-b14f-d01712d3ceba.png",
+      "prompt": "Use case: product-mockup. Asset type: portrait 2:3 fictional luxury fragrance product photograph. One complete ÉLAN perfume bottle called Brume, translucent pale green-gold liquid, heavy rectangular clear glass with black lacquer cap and narrow champagne collar; a few cedar wood curls softly out of focus on the dark studio surface. Bottle upright centered occupying 65 percent of image height with generous dark margin above and both sides. An ivory label with exact elegant serif text 'ÉLAN' and 'Brume' only. Real optical glass, realistic refraction and reflections, liquid meniscus, finely textured printed label, believable heavy base and contact shadow. Photographed on medium-format camera with 85mm lens, expensive dramatic luxury campaign, warm gold strip-light edges and rich near-black #0b0a08 surrounding, refined natural film grain. All bottle inside frame. NO drawings, vector, illustration, cartoon, synthetic 3D look, UI, watermark, other text or brands."
+    },
+    {
+      "name": "fleur",
+      "path": "/images/fragrances/fleur.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-5b53d61f-ddef-4e73-a4fa-15ed88563b4e.png",
+      "prompt": "Use case: product-mockup. Asset type: portrait 2:3 luxury fragrance product photograph for a real website. Fictional ÉLAN perfume called Fleur de Soie. very pale rose liquid in heavy clear rectangular glass, rounded edges, black lacquer cap and champagne neck; a single soft blush rose and ivory silk partly out of focus behind the bottle. One complete bottle, upright centered, occupies 65 percent of image height, generous dark space above and on both sides, bottle fully inside frame, clean silhouette and real thick glass with realistic internal reflections, refraction, liquid meniscus, tiny natural surface imperfections. Small elegant ivory label printed with exact text 'ÉLAN' and 'Fleur de Soie' only, correct legible spelling, no other claims, no volumes, no extra words. Extremely convincing high-end medium-format studio photography, 85mm lens, focused label, warm champagne strip light along the glass edges, dramatic deep warm-black #0b0a08 shadows, soft gold caustics on the dark table, tactile subdued silk where specified, premium fragrance campaign. Natural photograph, NOT drawing, NOT vector, NOT illustration, NOT cartoon, NOT CGI looking, no collage, no other brands, no UI or watermark."
+    },
+    {
+      "name": "clair",
+      "path": "/images/fragrances/clair.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-29e5a862-79d5-4047-86df-cffeac5abde7.png",
+      "prompt": "Use case: product-mockup. Asset type: portrait 2:3 luxury fragrance product photograph for a real website. Fictional ÉLAN perfume called Clair. pale translucent gold liquid in clear rectangular heavy glass, glossy black cap and champagne collar; dark green-black studio ground with one softly lit mandarin peel curl at the base. One complete bottle, upright centered, occupies 65 percent of image height, generous dark space above and on both sides, bottle fully inside frame, clean silhouette and real thick glass with realistic internal reflections, refraction, liquid meniscus, tiny natural surface imperfections. Small elegant ivory label printed with exact text 'ÉLAN' and 'Clair' only, correct legible spelling, no other claims, no volumes, no extra words. Extremely convincing high-end medium-format studio photography, 85mm lens, focused label, warm champagne strip light along the glass edges, dramatic deep warm-black #0b0a08 shadows, soft gold caustics on the dark table, tactile subdued silk where specified, premium fragrance campaign. Natural photograph, NOT drawing, NOT vector, NOT illustration, NOT cartoon, NOT CGI looking, no collage, no other brands, no UI or watermark."
+    },
+    {
+      "name": "velours",
+      "path": "/images/fragrances/velours.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-98db0dd1-3b4e-441f-a25b-a729a1c36bc1.png",
+      "prompt": "Use case: product-mockup. Asset type: portrait 2:3 fictional luxury fragrance product photograph. One complete ÉLAN perfume bottle called Velours, warm amber liquid in thick clear rectangular glass with rounded edges, black lacquer cap and champagne collar; dark caramel satin folded behind it and one natural vanilla pod at the base. Bottle upright centered occupying 65 percent of image height with generous dark margin above and both sides. An ivory label with exact elegant serif text 'ÉLAN' and 'Velours' only. Real optical glass, realistic refraction and reflections, liquid meniscus, finely textured printed label, believable heavy base and contact shadow. Photographed on medium-format camera with 85mm lens, expensive dramatic luxury campaign, warm gold strip-light edges and rich near-black #0b0a08 surrounding, refined natural film grain. All bottle inside frame. NO drawings, vector, illustration, cartoon, synthetic 3D look, UI, watermark, other text or brands."
+    },
+    {
+      "name": "terre",
+      "path": "/images/fragrances/terre.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-f0729963-3fe0-4a64-bc11-6adfd634c3ce.png",
+      "prompt": "Use case: product-mockup. Asset type: portrait 2:3 realistic luxury fragrance photograph. Fictional ÉLAN perfume 'Terre Noire': deep amber liquid in a broad thick smoky rectangular glass bottle with glossy black cap and champagne collar; a few black peppercorns on dark stone, charcoal shadows. One bottle upright centered, occupying 65% of image height with generous black margins, whole bottle and cap in frame, thick real glass with genuine looking refraction/reflection, amber caustics, liquid meniscus, finely textured ivory label printed with EXACT elegant serif words 'ÉLAN' and 'Terre Noire' only. Rich near-black #0b0a08 backdrop, expensive warm champagne strip-light reflections at the edges, dramatic tactile shadows on dark surface. High-end medium-format photographic studio still life, 85mm lens, natural photographic realism and fine film grain. NO illustration, vector, cartoon, plastic 3D render, UI, watermark, extra words or other brands."
+    },
+    {
+      "name": "sillage",
+      "path": "/images/fragrances/sillage.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-31c4178f-1c7b-4bce-bbf6-2e052c0c87d9.png",
+      "prompt": "Use case: product-mockup. Asset type: portrait 2:3 realistic luxury fragrance photograph. Fictional ÉLAN perfume 'Sillage': pale golden liquid in heavy clear squared glass with glossy black cap and champagne collar; a small softly focused sandalwood block and taupe silk in a dark studio. One bottle upright centered, occupying 65% of image height with generous black margins, whole bottle and cap in frame, thick real glass with genuine looking refraction/reflection, amber caustics, liquid meniscus, finely textured ivory label printed with EXACT elegant serif words 'ÉLAN' and 'Sillage' only. Rich near-black #0b0a08 backdrop, expensive warm champagne strip-light reflections at the edges, dramatic tactile shadows on dark surface. High-end medium-format photographic studio still life, 85mm lens, natural photographic realism and fine film grain. NO illustration, vector, cartoon, plastic 3D render, UI, watermark, extra words or other brands."
+    },
+    {
+      "name": "nuit",
+      "path": "/images/fragrances/nuit.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-8144a90b-ddf5-415d-aff5-dee2cfc238bf.png",
+      "prompt": "Use case: product-mockup. Asset type: portrait 2:3 realistic premium fragrance product photograph. Fictional ÉLAN fragrance 'Nuit Ambrée', deep cognac amber liquid in smoky rectangular glass, glossy black cap with warm champagne collar, dark burgundy silk and a few saffron threads softly out of focus. One bottle centered upright, whole cap and bottle within frame, occupying 65 percent of height, generous dark negative space all sides. Thick optical glass, realistic reflections, refraction and liquid meniscus, refined expensive studio lighting and contact shadow. Small ivory printed label with EXACT legible elegant serif words 'ÉLAN' and 'Nuit Ambrée' only. Medium format camera, 85mm lens, dramatic champagne warm strip-light at edges, rich near-black #0b0a08 background and ground, ultra realistic tactile photographic art direction, fine natural film grain. No illustration, vector, cartoon, artificial 3D appearance, UI, collage, watermark, other brands or extra words."
+    },
+    {
+      "name": "rosee",
+      "path": "/images/fragrances/rosee.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-5c97b9cd-42ea-4a67-ab17-8df112ac1065.png",
+      "prompt": "Use case: product-mockup. Asset type: portrait 2:3 realistic premium fragrance product photograph. Fictional ÉLAN fragrance 'Rosée', very pale blush liquid in clear heavy rectangular glass, black lacquer cap with champagne collar, a single ivory rose and softly focused jasmine blossoms behind it. One bottle centered upright, whole cap and bottle within frame, occupying 65 percent of height, generous dark negative space all sides. Thick optical glass, realistic reflections, refraction and liquid meniscus, refined expensive studio lighting and contact shadow. Small ivory printed label with EXACT legible elegant serif words 'ÉLAN' and 'Rosée' only. Medium format camera, 85mm lens, dramatic champagne warm strip-light at edges, rich near-black #0b0a08 background and ground, ultra realistic tactile photographic art direction, fine natural film grain. No illustration, vector, cartoon, artificial 3D appearance, UI, collage, watermark, other brands or extra words."
+    },
+    {
+      "name": "peau",
+      "path": "/images/fragrances/peau.webp",
+      "original": "/Users/andrezzanascimento/.codex/generated_images/01a155a3-ee82-7b21-a189-342a29395eb3/exec-64ed81bf-fb23-43b2-b1f6-f06cfc7fa30f.png",
+      "prompt": "Use case: product-mockup. Asset type: portrait 2:3 realistic premium fragrance product photograph. Fictional ÉLAN fragrance 'Peau Dorée', honey-gold liquid in heavy clear rectangular glass, black lacquer cap with champagne collar, dark bronze silk fold and one vanilla pod on the dark surface. One bottle centered upright, whole cap and bottle within frame, occupying 65 percent of height, generous dark negative space all sides. Thick optical glass, realistic reflections, refraction and liquid meniscus, refined expensive studio lighting and contact shadow. Small ivory printed label with EXACT legible elegant serif words 'ÉLAN' and 'Peau Dorée' only. Medium format camera, 85mm lens, dramatic champagne warm strip-light at edges, rich near-black #0b0a08 background and ground, ultra realistic tactile photographic art direction, fine natural film grain. No illustration, vector, cartoon, artificial 3D appearance, UI, collage, watermark, other brands or extra words."
+    }
+  ]
+}
